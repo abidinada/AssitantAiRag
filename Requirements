@@ -1,0 +1,29 @@
+# Core dependencies
+langchain>=0.1.0
+langchain-openai>=0.0.5
+langchain-community>=0.0.20
+langchain-chroma>=0.1.0
+
+# LangGraph (pour la gestion d'état et mémoire)
+langgraph>=0.0.40
+
+# Vector database
+chromadb>=0.4.22
+
+# Document loading
+unstructured>=0.12.0
+python-pptx>=0.6.23
+
+# Utilities
+python-dotenv>=1.0.0
+rich>=13.7.0  # Pour l'interface CLI colorée
+
+# OpenAI
+openai>=1.12.0
+tiktoken>=0.5.2
+
+# Pour l'OCR (extraction texte des images)
+unstructured[all-docs]>=0.12.0
+pytesseract>=0.3.10
+pillow>=10.0.0
+pdf2image>=1.16.0

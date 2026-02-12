@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ChromaDB / Vector Database
+chroma.db/
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment variables (TRÈS IMPORTANT - Contient votre API key OpenAI)
+.env
+
+# Data files
+data/
+*.pptx
+*.pdf
+*.docx
+*.xlsx
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+*.cache
